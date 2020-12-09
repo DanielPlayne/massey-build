@@ -1,0 +1,37 @@
+{
+    "context-menu" : {
+        "atom-text-editor": [
+            {
+                "label": "Build",
+                "command": "massey-build:build"
+            },
+            {
+                "label": "Rebuild",
+                "command": "massey-build:rebuild"
+            },
+            {
+                "label": "Run",
+                "command": "massey-build:run"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "label": "Massey-Build",
+            "submenu": [
+                {
+                    "label": "Build",
+                    "command": "massey-build:build"
+                },
+                {
+                    "label": "Rebuild",
+                    "command": "massey-build:rebuild"
+                },
+                {
+                    "label": "Run",
+                    "command": "massey-build:run"
+                }
+            ]
+        }
+    ]
+}
