@@ -6,10 +6,7 @@
   "keywords": [
       "Massey"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DanielPlayne/massey-build.git"
-  },
+  "repository": "https://github.com/DanielPlayne/massey-build",
   "homepage": "https://github.com/DanielPlayne/massey-build#readme",
   "license": "MIT",
   "engines": {
