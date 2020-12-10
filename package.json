@@ -17,11 +17,13 @@
     "atom-space-pen-views": "^2.0.3"
   },
   "package-deps": [
-    [
-      {
-        "name": "flex-tool-bar"
-      }
-    ]
+      "tool-bar",
+      "flex-tool-bar",
+      "intentions",
+      "busy-signal",
+      "linter",
+      "linter-ui-default",
+      "linter-gcc"
   ],
   "consumedServices": {
     "tool-bar": {
