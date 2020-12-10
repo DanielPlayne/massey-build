@@ -1,18 +1,55 @@
 {
-  "name": "massey-build",
-  "main": "./lib/massey-build",
-  "version": "0.2.0",
-  "description": "Massey Plugin",
-  "keywords": [
-    "Massey"
+  "_from": "https://www.atom.io/api/packages/massey-build/versions/0.2.0/tarball",
+  "_id": "massey-build@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lyBRjaD2wbX+hVNv8oL8wKkyT+ROu0PndnwVAYD13eZXVKhjZKcaFczTT74W+gF1PEWUeh23SttLe2rB3Lr6xg==",
+  "_location": "/massey-build",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/massey-build/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/massey-build/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/massey-build/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/massey-build/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "repository": "https://github.com/DanielPlayne/massey-build",
-  "homepage": "https://github.com/DanielPlayne/massey-build#readme",
-  "license": "MIT",
+  "_resolved": "https://www.atom.io/api/packages/massey-build/versions/0.2.0/tarball",
+  "_shasum": "49194a8a7e0d138d4d1085cc2e71e3cbe197af7f",
+  "_spec": "https://www.atom.io/api/packages/massey-build/versions/0.2.0/tarball",
+  "_where": "/private/var/folders/n9/l5256h6d0gbcfxx2zcl0v_9rn6cm8m/T/apm-install-dir-20201110-30453-9d9i8g.1fpce",
+  "bugs": {
+    "url": "https://github.com/DanielPlayne/massey-build/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "flex-tool-bar": "2.2.1"
+  },
+  "deprecated": false,
+  "description": "Massey Plugin",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-    "atom-space-pen-views": "^2.0.3"
+  "homepage": "https://github.com/DanielPlayne/massey-build#readme",
+  "keywords": [
+    "Massey"
+  ],
+  "license": "MIT",
+  "main": "./lib/massey-build",
+  "name": "massey-build",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielPlayne/massey-build.git"
+  },
+  "version": "0.2.0",
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
   }
 }
