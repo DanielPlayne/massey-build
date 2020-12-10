@@ -1,5 +1,16 @@
-# massey-build package
+# Massey Build package
 
-A short description of your package.
+A simple extension to build/run C/C++ files from Atom.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+
+## Features
+
+* Simple Menu/Toolbar to build and run C/C++ files.
+* Build will check for and use a Makefile if one is found.
+
+
+## References
+
+This package has been written in Javascript but took significant elements from:
+
+* [tomlau10/gcc-make-run](https://atom.io/packages/gpp-compiler)

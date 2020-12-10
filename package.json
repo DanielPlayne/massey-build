@@ -2,12 +2,15 @@
   "name": "massey-build",
   "main": "./lib/massey-build",
   "version": "0.1.0",
-  "description": "Build plug-in for gcc.",
+  "description": "Massey Plugin",
   "keywords": [
-      "Massey",
-      "Build"
+      "Massey"
   ],
-  "repository": "https://github.com/atom/massey-build",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpplayne/massey-build.git"
+  },
+  "homepage": "https://github.com/dpplayne/massey-build#readme",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
