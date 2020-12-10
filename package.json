@@ -1,7 +1,7 @@
 {
   "name": "massey-build",
   "main": "./lib/massey-build",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "Massey Plugin",
   "keywords": [
     "Massey"
@@ -17,13 +17,13 @@
     "atom-space-pen-views": "^2.0.3"
   },
   "package-deps": [
-      "tool-bar",
-      "flex-tool-bar",
-      "intentions",
-      "busy-signal",
-      "linter",
-      "linter-ui-default",
-      "linter-gcc"
+    "tool-bar",
+    "flex-tool-bar",
+    "intentions",
+    "busy-signal",
+    "linter",
+    "linter-ui-default",
+    "linter-gcc"
   ],
   "consumedServices": {
     "tool-bar": {
