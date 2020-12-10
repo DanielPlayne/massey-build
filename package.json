@@ -12,14 +12,13 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "package-deps": [
-      {
-        "name": "flex-tool-bar"
-      }
-  ],
   "dependencies": {
-    "atom-space-pen-views": "^2.0.3",
+    "atom-package-deps": "^4.5.0",
+    "atom-space-pen-views": "^2.0.3"
   },
+  "package-deps": [
+    "flex-tool-bar:2.2.3"
+  ],
   "consumedServices": {
     "tool-bar": {
       "versions": {
