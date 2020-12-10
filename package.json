@@ -12,9 +12,11 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "package-deps": [
+      {"name": "flex-tool-bar"}
+  ],
   "dependencies": {
     "atom-space-pen-views": "^2.0.3",
-    "atom-flex-tool-bar": "^2.2.1"
   },
   "consumedServices": {
     "tool-bar": {
