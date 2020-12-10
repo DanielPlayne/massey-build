@@ -1,10 +1,10 @@
 {
   "name": "massey-build",
   "main": "./lib/massey-build",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Massey Plugin",
   "keywords": [
-      "Massey"
+    "Massey"
   ],
   "repository": "https://github.com/DanielPlayne/massey-build",
   "homepage": "https://github.com/DanielPlayne/massey-build#readme",
