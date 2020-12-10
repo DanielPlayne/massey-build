@@ -17,16 +17,7 @@
     "atom-space-pen-views": "^2.0.3"
   },
   "package-deps": [
-    [
-      {
-        "name": "flex-tool-bar",
-        "MinimumVersion": "2.2.3"
-      },
-      {
-        "name": "linter-clang",
-        "MinimumVersion": "4.1.2"
-      }
-    ]
+    [{"name": "flex-tool-bar"}]
   ],
   "consumedServices": {
     "tool-bar": {
