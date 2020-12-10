@@ -17,9 +17,8 @@
     "atom-space-pen-views": "^2.0.3"
   },
   "package-deps": [
-    "flex-tool-bar:2.2.3",
-    "linter-clang",
-    "busy-signal"
+    [ {"name": "flex-tool-bar", "MinimumVersion": "2.2.3"},
+      {"name": "linter-clang", "MinimumVersion": "4.1.2"} ]
   ],
   "consumedServices": {
     "tool-bar": {
