@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "massey-build:toggle"
+    "ctrl-b": "massey-build:build",
+    "ctrl-r": "massey-build:run"
   }
 }
